@@ -1,0 +1,17 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Provas – criar e corrigir</title><meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><h1>📝 Provas</h1><span id="ver">v0.1</span></header>
+<nav id="tabs">
+ <button data-t="bank" class="on">Banco</button><button data-t="tests">Provas</button><button data-t="grade">Corrigir</button><button data-t="results">Resultados</button><button data-t="more">Backup</button>
+</nav>
+<main id="view"></main>
+<div id="modal" class="modal hidden"><div class="box" id="mbox"></div></div>
+<div id="print"></div>
+<div id="toast"></div>
+<script src="lib/qrcode.js"></script><script src="lib/jsQR.js"></script><script src="lib/xlsx.core.min.js"></script>
+<script src="omr.js"></script><script src="app.js"></script>
+</body></html>
